@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>망델브로 집합 그리기</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+    <script src="src/index.js" async></script>
+  </head>
+
+  <body>
+    <canvas id="myCanvas"></canvas>
+    <div>중심좌표 (<span id="xc"></span>, <span id="yc"></span>)</div>
+    <div>
+      <label
+        >확대배율 : <input type="number" id="magnification" value="0.65"
+      /></label>
+      <label
+        >최대 반복 횟수 : <input type="number" id="maxit" value="60"
+      /></label>
+      <input type="button" id="btn" value="그리기" />
+    </div>
+  </body>
+</html>
